@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"id": "process,cmd,/c,1testrunner,-run,${file},",
+			"problemMatcher": [
+				"$OneScript Linter"
+			],
+			"label": "cmd: 1testrunner: Testing current test-file"
+		},
+	
+	]
+}
